@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Gambar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .item {
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .description {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Galeri Gambar</h1>
+<div class="gallery">
+    <div class="item">
+        <img src="gambar1.jpg" alt="Gambar 1">
+        <div class="description">Deskripsi untuk Gambar 1</div>
+    </div>
+    <div class="item">
+        <img src="gambar2.jpg" alt="Gambar 2">
+        <div class="description">Deskripsi untuk Gambar 2</div>
+    </div>
+    <div class="item">
+        <img src="gambar3.jpg" alt="Gambar 3">
+        <div class="description">Deskripsi untuk Gambar 3</div>
+    </div>
+</div>
+
+</body>
+</html>
